@@ -5,4 +5,4 @@
 
 <p>Dit is een JS formulier.</p>
 
-<b>LINK:</b>https://eriannkunga.github.io/JS-form/
+<b>LINK:</b> https://eriannkunga.github.io/JS-form/
