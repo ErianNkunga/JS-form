@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Formulier</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./dist/bundle.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1> Formulier</h1>
+        </header>
+
+        <div id="sidebar" class="sidebar">
+            <label class="radio-inline">
+                <br><br>
+                <b> 1</b> <input type="radio" id="progress" name="progress" value="1" checked>
+            </label>
+            <label>
+                <br>
+                <b>2</b>
+                <input type="radio" id="progress2" name="progress" value="2">
+            </label>
+            <label>
+                <br>
+                <b>3</b>
+                <input type="radio" id="progress3" name="progress" value="3">
+            </label>
+        </div>
+
+        <form class="form" novalidate>
+            <div id="weg" class="form-page visible">
+                <label for="fname"><b>Voornaam:</label>
+                <input type="text" id="fname" name="Voornaam" required><br><br>
+                <img src="https://stichtingconexus-live-518ddb01c5a745fc-19ffc18.aldryn-media.com/filer_public_thumbnails/filer_public/06/25/062534de-cd58-4536-9738-00f94c13724b/informatie.jpg__1200x1200_q100_subsampling-2.jpg"
+                    alt="" width="300" height="300" align="right">
+                </img>
+                <label for="lname">Achternaam:</label><br>
+                <input type="text" id="lname" name="Achternaam" required><br>
+                <br>
+                <label>Geslacht:</label>
+
+                <br>
+                <input type="radio" id="Man" name="geslacht" value="Man" required>
+                <label for="Man">Man</label><br>
+                <input type="radio" id="Vrouw" name="geslacht" value="Vrouw" required>
+                <label for="css">Vrouw</label>
+                <br>
+                <br>
+                <button type="button" id="next-page-button">Ga verder</button>
+                <br><br>
+            </div>
+            <div id="myDIV" class="form-page">
+                Dit is de tweede pagina
+                <br>
+                <br>
+                <label>Geboortedatum</label><br>
+                <input type="date" id="datum" name="datum"><br><br>
+                <img src="https://topstate.nl/wp-content/uploads/2021/01/Goede-vragen-blog.jpg" alt="" width="300"
+                    height="300" align="right" required>
+                <label for="nation">Nationaliteit:</label><br>
+                <input type="text" id="nation" name="Nationaliteit" required><br>
+                <br>
+                <label for="tel">Telefoonnummer:</label><br>
+                <input type="tel" id="tel" name="Telefoonnummer" placeholder="12 3 4567890" required><br><br>
+                <label>Heb jij kinderen?</label>
+                <br>
+                <input type="radio" id="Ja" name="antwoord" value="Ja" required>
+                <label for="Man">Ja</label><br>
+                <input type="radio" id="nee" name="antwoord" value="Nee" required>
+                <label for="css">Nee</label>
+                <br>
+                <br>
+                <button type="button" id="verder">Ga verder</button>
+                <br><br>
+                <button type="button" id="terug">Ga terug</button></b>
+
+                </b>
+
+            </div>
+            <div id="derde" class="form-page">
+                <b>Dit is de derde pagina
+                    <br>
+                    <br>
+                    <img src="https://thumbs.dreamstime.com/b/finished-grunge-vintage-stamp-isolated-white-background-finished-sign-finished-stamp-122289265.jpg"
+                        alt="" width="300" height="300" align="right">
+                    </img>
+                    <label>Adres:</label><br>
+                    <input type="text" id="adres" name="adres" required><br><br>
+                    <label>School:</label><br>
+                    <input type="text" id="school" name="school" required>
+                    <br><br>
+                    <button type="submit" id="Verstuur">Verstuur</button>
+                    <br><br>
+                    <button type="button" id="terug2">Ga terug</button></b>
+                <br> 
+            </div>
+            <div id="melding">
+                <p id="demo"></p>
+            </div>
+        </form>
+
+        <footer>
+            <h1>Formulier</h1>
+        </footer>
+    </main>
+</body>
+
+<script src="./dist/bundle.js" defer></script>
+
+</html>
